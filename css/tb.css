@@ -1,0 +1,747 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	
+h1 {
+	font-size: 1.8rem;
+	/* line-height: 2.25; */
+}
+h2 {
+	font-size: 1.5rem;
+}
+.p-pc {
+	display: none;
+}
+.br-pc {
+	display: none;
+}
+.br-sp {
+	display: inline-block;
+}
+.inner {
+	width:100%;
+	overflow:hidden;
+}	
+.yellow-blocks,
+.white-blocks {
+	width: 95%;
+	max-width: calc(100% - 2.0rem);
+	padding: 1.0rem;
+}
+.yellow-blocks.wide {
+	max-width: calc(100% - 1.0rem);
+	padding: 0.5rem 2.0rem;
+}
+.yellow-blocks::before,
+.yellow-blocks::after,
+.white-blocks::before,
+.white-blocks::after {
+		width: 3.0rem;
+		height: 3.0rem;
+}
+
+/*header*/
+header {
+	/* height: 6.1813rem; */
+}
+header .container {
+	width: 100%;
+	height: 6.2rem;
+	padding: 0;
+}
+header .header-logo {
+	position: absolute;
+	top: 2.5rem;
+	left: 1.0rem;
+	margin-top: 0;
+}
+header .header-logo img {
+	width: 9.0rem;
+}
+header .header-subtitle {
+	font-size: 1.0rem;
+	letter-spacing: 0px;
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+header .header-subtitle p {
+	font-size: 1.0rem;
+}
+header .header-contact a.application-btn-pc {
+	display: none;
+}
+header .header-contact a.application-btn-sp {
+	display: block;
+	padding: 0.9rem 1.1rem;
+	background: #da6b64;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+header .header-contact a.application-btn-sp img {
+	display: block;
+	width: 2.0rem;
+	margin: 0 auto; 
+}
+header .header-contact a.application-btn-sp p {
+	font-size: 1.2rem;
+}
+
+/*/#instruction/*/
+#instruction {
+	padding-top: 6.0rem;
+	/* background-size: auto; */
+}
+#instruction .container {
+	/* padding-top: calc(2.2rem + 5.9813rem);
+	padding-bottom: 3.3rem; */
+}
+#instruction .cover-img {
+	background-image: url(../img/mainsp.jpg);
+	height: 31.2rem;	
+}
+#instruction h1 {
+	margin-bottom: 0;
+	line-height: 1.6;
+}
+#instruction img {
+	/* width: 90%; */
+	width: 31.05rem;
+	margin: 2.0rem;
+	position: relative;
+	left: 0.25rem;
+}
+
+/*/#main-call-to-action/*/
+#main-call-to-action {
+	max-width: 37.5rem;
+	padding: 1.5rem 0;	
+}
+#main-call-to-action h2 {
+	/* padding-top: 1.5rem;
+	padding-bottom: 0.9rem; */
+}
+#main-call-to-action .span {
+	padding-top: 0;
+}
+#main-call-to-action .span span {
+	font-size: 1.35rem;
+}
+#main-call-to-action > a {
+ 	width: 89.33333%;
+	margin-top: 2.5rem;
+	margin-bottom: 1.3rem;
+	padding: 1.5rem 0;
+	border-radius: 5.0rem;	
+}
+#main-call-to-action > a h1 {
+	font-size: 2.0rem;
+	line-height: 1.6;
+	letter-spacing: 0;
+}
+#main-call-to-action p {
+	padding: 1.3rem 0;
+	font-size: 1.5rem;
+	letter-spacing: 0;
+}
+#main-call-to-action .snss {
+    margin: 0.25rem 7.75rem;
+    padding: 1.1rem 0;
+}
+
+/*/#incentive/*/
+#incentive {
+	padding: 3.0rem 0;	
+	height: 65.6rem;
+	background-size: contain;
+	background-position: center bottom;
+}
+#incentive h1 {
+    margin: 2.0rem 0 1.0rem;
+}
+#incentive h2 {
+	margin-top: 2.5rem;
+	margin-bottom: 3.0rem;	
+	letter-spacing: 0;
+}
+#incentive h2 + h2 {
+	margin-top: 0;
+  margin-bottom: 3.0rem;
+}
+
+/*/#about/*/
+#about {
+	padding: 6.0rem 0 4.0rem;
+}
+#about .about {
+	width: 6.0rem;
+	height: 6.0rem;
+	font-size: 1.2rem;
+	line-height: 6.0rem;
+	position: absolute;
+	top: -3.0rem;
+}
+#about h1 {
+	margin: 2.0rem 0 1.0rem;
+	line-height: 4.0rem;
+}
+#about > h2 {
+	margin: 1.5rem 0 1.0rem;
+}
+#about .skills {
+	padding: 1.0rem;
+}
+#about .skills .flex {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#about .skills h2 {
+	margin-bottom: 1.0rem;
+}
+#about .skills .skill {
+	display: inline-block;
+	padding: 0.5rem;
+}
+#about .skills .skill img {
+	height: 3.0rem;
+}
+#about .skills .skill p {
+	width: 100%;
+	margin-top: 1.0rem;
+	margin-bottom: 1.0rem;
+	font-size: 1.0rem; 
+	font-weight: 300;
+	text-align: center;
+}
+/*/#steps/*/
+#steps {
+	padding: 3.0rem;
+	background-image: url(../img/aboutsecondbgsp.jpg);
+}
+#steps h1 {
+	line-height: 2.0rem;
+}
+#steps h2 {
+	font-size: 1.3rem;
+	letter-spacing: 0;
+}
+#steps .container {
+	padding: 0;
+}
+#steps .container .flex{
+	flex-direction: column;
+	margin-top: 2.5rem;
+}
+#steps .step .step-number,
+#steps .step .step-term,
+#steps .step .step-content {
+	font-size: 1.2rem;
+}
+#steps .step {
+	width: 100%;
+	margin: 0 auto !important;
+	margin-bottom: 1.5rem !important;
+	padding: 1.5rem 5.0rem;
+}
+#steps .step .step-term {
+	margin: 1.5rem 0 0.5rem;
+	letter-spacing: 0;
+}
+#steps .step .step-content {
+	margin: 0;
+}
+
+/*/ #steps-bottom /*/
+#steps-bottom {
+	padding: 2.0rem 0;
+}
+#steps-bottom h2 {
+	font-size: 1.2rem;
+}
+
+/*/#learnings/*/
+#learnings {
+	padding: 2.0rem 0;
+}
+#learnings h1 {
+	/* margin: 3.725rem 0 3.7rem; */
+}
+#learnings h1 span {
+	font-size: 1.2rem;
+}
+#learnings h2 {
+	margin-bottom: 1.0rem;
+}
+#learnings .flex {
+	/* margin: 1.5rem 6.0rem; */
+	width: 26.5rem;
+	margin: 0.5rem auto 1.5rem;
+}
+#learnings .learning {
+	/* width: 5.625rem; */
+	/* height: 5.625rem; */
+	padding: 0.5rem;
+}
+#learnings .learning img {
+	width: 100%;
+}
+#learnings p {
+	margin-bottom: 0 1.0rem; 
+  font-size: 1.2rem;
+}
+
+/*/#advantages/*/
+#advantages {
+	padding: 3.0rem 0;
+}
+#advantages h1.lead-message span {
+	margin-top: 1.5rem;
+	display: inline-block;
+	font-size: 1.5rem;
+	line-height: 1.4;
+}
+#advantages .flex {
+	width: 100%;
+	margin-top: 2.0rem;		
+	flex-direction: column;
+}
+#advantages .advantage {
+	width: 100%;
+	margin-bottom: 1.0rem;
+}
+#advantages .advantage .learnfromfreelancer,
+#advantages .advantage .learnfromprojects,
+#advantages .advantage .actuallyfree {
+	height: 12.0rem;
+}
+#advantages .advantage h2 {
+	margin: 1.0rem 0 0.8rem;
+	text-align: center;
+}
+#advantages .advantage p {
+	padding: 0 2.0rem;
+	font-size: 1.2rem;
+}
+#advantages .add-advantage {
+	width: 33.5rem;
+	margin: 1.5rem auto;
+	padding: 1.0rem;
+}
+#advantages .add-advantage h2 {
+	font-size: 1.5rem;
+}
+#advantages .add-advantage p {
+	font-size: 1.0rem;
+	letter-spacing: 0;
+}
+#advantages .note {
+	padding: 0 1.0rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+}
+
+/*/#members/*/
+#members {
+	padding: 2.0rem 0;
+	background-image: url(../img/teacherbgsp.jpg);
+	margin-bottom: 0;
+}
+#members > p {
+	font-size: 1.2rem;
+}
+#members .flex {
+	margin: 0;
+	flex-direction: column;
+}
+#members .member {
+	padding: 0 1.0rem;
+}
+#members .member img {
+	width: 12.0rem;
+}
+#members .member .member-wrapper{
+	padding: 4.0rem 1.0rem 1.0rem;
+}
+#members .member .background,
+#members .member .name,
+#members .member .self-introduction {
+	font-size: 1.2rem;
+}
+
+/*/#voices/*/
+#voices .voices-top {
+	padding: 2.0rem 0;
+}
+#voices .voices-top .qa {
+	width: 6.0rem;
+	height: 6.0rem;
+	margin-bottom: 1.0rem; 
+	font-size: 1.2rem;
+	line-height: 6.0rem;
+}
+#voices .voices-top h1 {
+	font-size: 1.4rem;
+	line-height: 2.86;
+}
+#voices .voices-top:after {
+	border: 15px solid transparent;
+	border-top: 15px solid #ebb94d;
+}
+#voices .voices-content {
+	margin: 0;
+	padding: 2.0rem 0;
+}
+#voices .voices-content > p {
+	font-size: 1.2rem !important;
+}
+#voices .voices-content p.note {
+	letter-spacing: 0;
+}
+#voices .voices-content .voice {
+	max-width: calc(100% - 20px);
+	margin: 0 auto;
+}
+#voices .voices-content .voice img {
+	width: 10.3328rem;
+	height: 10.3328rem;
+}
+#voices .voices-content .voice p {
+	font-size: 1.4rem;
+	margin-top: -0.5rem;
+	margin-bottom: 1.0rem;
+	padding-left: 0;
+}
+#voices .voices-content .voice p + p {
+	font-size: 1.2rem;
+	letter-spacing: 0.145rem;
+}
+
+/*/#learnig-details/*/
+#learnig-details {
+	padding: 2.0rem 0;
+	background-image: url(../img/classbgsp.jpg);	
+}
+#learnig-details > p {
+	font-size: 1.2rem;
+}
+#learnig-details .learnig-detail-wrapper {
+	margin: 0 auto;
+	padding: 2.0rem 1.0rem;
+}
+#learnig-details .learnig-detail {
+	width: 100%;
+	margin: 0 auto;
+}
+#learnig-details .learnig-detail:first-of-type {
+	margin-bottom: 1.5rem;
+}
+#learnig-details .learnig-detail li {
+	font-size: 1.2rem;
+}
+#learnig-details .learnig-details-bottom {
+    padding: 2.0rem 0;
+ }
+
+ /*/ #learnig-details-bottom /*/
+#learnig-details-bottom {
+	padding: 2.0rem 0;
+}
+
+/*/#flows/*/
+#flows {
+	padding: 2.0rem 0;
+}
+#flows .container .flows-pc {
+	display: none;
+}
+#flows .container .flows-sp {
+	display: block;
+	margin-bottom: 2.0rem;
+	padding: 2.0rem 1.5rem;
+}
+#flows .container .flows-sp .flow {
+	border-radius: 0.4rem;	
+	background: #fef5e0;
+}
+#flows .container .flows-sp .flow + .flow {
+	margin-top: 0.5rem;
+}
+#flows .container .flows-sp .flow .flex {	
+	flex-direction: column;
+	/* padding: 1.0rem 1.5rem; */
+	text-align: left;
+}
+#flows .container .flows-sp .flow .flex .flow-title {
+	/* width: 100%; */
+	/* margin-bottom: 2.5rem; */
+	padding: 1.0rem 1.5rem;
+	/* padding-bottom: 1.0rem; */
+}
+/* #flows .container .flows-pc .flow .flex .flow-title {
+	width: 20.0rem;
+	padding: 2.0rem; 
+} */
+#flows .flows-sp .flow .flex .flow-title img {
+	/* display: inline-block; */
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-right: 1.0rem;
+}
+#flows .flows-sp .flow .flex .flow-title img.img-style {
+	margin-top: 0;
+	/* margin-bottom: 0; */
+}
+/* #flows .container .flows-pc .flow .flex .flow-title img.img-style {
+	margin-top: 4.0rem;
+} */
+#flows .container .flows-sp .flow .flex .flow-title p {
+	/* margin: 0rem; */
+	/* margin-bottom: 0rem; */
+	/* margin-left: 0.825rem; */
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #000;
+	/* vertical-align: top; */
+	position: relative;
+	left: -0.2rem;
+}
+/* #flows .container .flows-pc .flow .flex .flow-title p {
+	margin-top: 2.0rem;
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+} */
+#flows .flows-sp .flow .flex .flow-content {
+	width: 100%;
+	padding: 1.5rem;
+	/* padding-top: 1.5rem; */
+}
+/* #flows .container .flows-pc .flow .flex .flow-content {
+	max-width: 90.0rem;
+} */
+#flows .flows-sp .flow .flex .flow-content p:not(.note) {
+	/* margin: 1.0rem 0; */
+	margin-bottom: 1.0rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+/* #flows .container .flows-pc .flow .flex .flow-content p:not(.note) {
+	font-size: 1.6rem;
+	text-align: left;
+} */
+#flows .flows-sp .flow .flex .flow-content p span {
+	display: inline;
+	margin: 0;
+}
+/* #flows .container .flows-pc .flow .flex .flow-content p span {
+	display: block;
+	margin: 2.0rem 0;
+} */
+#flows .flows-sp .flow .flex .flow-content .note {
+	margin-bottom: 1.0rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+	text-align: left;
+}
+/* #flows .container .flows-pc .flow .flex .flow-content .note {
+	text-align: left;
+	margin-bottom: 2.0rem;
+} */
+#flows .flows-sp .flow .flex .flow-content .note + p {
+    margin: 1.0rem 0;
+}
+/* #flows .container .flows-pc .flow .flex .flow-content .note + p {
+	margin-bottom: 2.0rem;
+} */
+/* #flows .flow .flex .flow-content .note.sentence-pc {
+	display: none;
+} */
+/* #flows .flow .flex .flow-content .note.sentence-sp {
+	display: block;
+} */
+
+/*/#place/*/
+#place {
+	padding: 2.0rem 1.5rem;
+	background-image: url(../img/bangkokbgsp.jpg);
+}
+#place .container h1 {
+	text-align: center;
+}
+#place .container .note {
+	margin-bottom: 2.0rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+}
+#place .container p:not(.note) {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin-bottom: 1.0rem; 	
+}
+#place .container h2 {
+	margin-bottom: 1.0rem;
+}
+
+/*/#bonuses/*/
+#bonuses {
+	padding: 2.0rem 0;
+}
+#bonuses > h1 {
+	margin: 0 0 2.0rem; 
+}
+#bonuses > p {
+	font-size: 1.2rem;
+	/* margin: 2.0rem 0;  */
+}
+#bonuses .bonuses-wrapper {
+	margin: 7.6rem 1.5rem 0;
+	padding: 3.0rem;
+}
+#bonuses .bonuses-wrapper h1 {
+	width: 25.0rem;
+	top: -3.1rem;
+	line-height: 1.6;
+}
+#bonuses .bonuses-wrapper .bonuses-sp > .flex {
+	flex-direction: column;
+  margin: 0 0 0;
+}
+#bonuses .bonuses-wrapper .bonuses-pc {
+	display: none;
+}
+#bonuses .bonuses-wrapper .bonuses-sp {
+	display: block;
+}
+#bonuses .bonuses-wrapper .bonuses-sp .flex .bonus {
+	margin-bottom: 1.5rem;
+}
+#bonuses .bonuses-wrapper .bonuses-sp .flex .bonus:first-of-type {
+	margin-top: 1.5rem;
+}
+#bonuses .bonuses-wrapper .bonuses-sp .flex .bonus .bonus-wrapper {
+	/* display: table-cell; */
+	display: flex;
+	vertical-align: middle;
+	/* position: relative; */
+	/* top: -0.5rem; */
+}
+#bonuses .bonuses-wrapper .bonuses-sp .flex .bonus .circle h2 {
+	width: 6.0rem;
+	height: 6.0rem;
+	margin: 0 1.215rem;
+	padding: 0;
+	background-color: #fff;
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 5.0;
+	color: #ebb94d;
+	text-align: center;
+	border-radius: 50%;
+}
+#bonuses .bonuses-wrapper .bonuses-sp .flex .bonus p {
+	width: 20.0rem;
+	margin: 0;
+	padding: 1.2rem 0 2.2rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #fff;
+	text-align: left;
+}
+
+/*/#mission/*/
+#mission {
+	padding: 2.0rem 1.0rem;	
+	background-image: url(../img/specialdetailsp.jpg);
+}
+#mission h2 {
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+}
+#mission .white-blocks {
+	margin-top: 2.0rem;
+}
+/* #mission h1:last-of-type {
+	margin: 5.0rem 0 3.0rem;
+} */
+
+/*/#message/*/
+#message {
+	padding: 2.0rem 0;	
+}
+#message .flex {
+	flex-direction: column;
+	margin: 0 1.0rem 1.5rem;
+	/* padding-top: 0.275rem; 	 */
+}
+#message img.profile-img {
+	width: 100%;
+	/* max-height: 100%; */
+	height: 26.875rem;
+	/* margin-bottom: 1.0rem; */
+	padding: 0.5rem;
+}
+#message .message-content {
+	width: 100%;
+	padding: 0.5rem;
+}
+}
+#message .message-content p {
+	margin-bottom: 1.0rem;
+}
+/* #message .message-content p:nth-of-type(3) {
+	padding: 2.2rem 0;
+} */
+
+/*/#request/*/
+#request {
+	padding: 2.0rem 1.5rem;
+}
+#request p {
+	margin-bottom: 1.0rem;
+	font-size: 1.2rem;
+}
+#request input,
+#request textarea,
+#request .submit-btn {
+	width: 100%;
+}
+
+/*#questions*/
+#questions {
+	padding: 2.0rem 1.5rem;	
+}
+#questions h1 {
+	margin: 2.0rem 0;	
+}
+#questions .question-wrapper  {
+	/* margin: 0 1.5rem; */
+	max-width: 100%;
+}
+#questions .question dt {
+	font-size: 1.5rem;
+	padding: 1.0rem;
+}
+#questions .question dt p {
+	width: calc(100% - 2.0rem);
+}
+#questions .question dt p i.far {
+	font-size: 1.3rem;
+}
+#questions .question dt p i.fas {
+	font-size: 1.3rem;
+}
+#questions .question dd {
+	font-size: 1.2rem;
+}
+
+/*/footer/*/
+footer {
+	padding: 2.0rem 0rem 10.6rem 0;
+}
+footer .snss {
+    margin: 0.25rem 7.75rem;
+    padding: 1.1rem 0;
+}
+
+}

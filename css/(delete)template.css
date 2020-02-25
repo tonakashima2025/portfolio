@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 640px; /*適宜設定*/
+  margin: 0 auto;
+  padding: 0;
+  font-family: ; /*適宜設定*/
+  font-size: 1.6rem;
+  line-height: 1.0; /*適宜設定*/
+  color: #111; /*適宜設定*/
+}
+a:link, a:visited, a:hover, a:active {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+
+
+/*　画像を"background"で設定する*/
+html
+  <p class="image-wrapper">
+    <a class="image"></p>
+  </p> 
+
+.image-wapper {
+  width: 20.0rem; /*幅を確保する*/
+}
+.image {
+  display: block; /*widthを設定するため*/
+  width: 100%; /*幅を確保する*/
+  padding-top: 11.66667%; /* 表示画像の高さ ÷ 表示画像の幅 × 100 */ 
+  background-image: url('img/livable_logo_white (4).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/*プルダウンメニューのデザインを変更する*/
+select::-ms-expand { 
+  display: none; /*IEでセレクトボックスの矢印を消す*/
+}
+select {
+  -webkit-appearance: none; /*Chrome・Firefoxでセレクトボックスの矢印を消す*/
+  -moz-appearance: none; /*Chrome・Firefoxでセレクトボックスの矢印を消す*/
+  appearance: none; /*Chrome・Firefoxでセレクトボックスの矢印を消す*/
+  margin-bottom: 20px;
+  padding: 7px 30px 7px 10px;
+  font-size: 93%;
+  line-height: 1.1em;
+  border-radius: 5px;
+  border: none;
+  background-image: url(./images/icon_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+  background-position: right 10px center;
+  background-color: #bddfff;
+}

@@ -1,0 +1,199 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+h1 {
+	font-size: 2.8rem;
+}
+h2 {
+	font-size: 1.8rem;
+}
+h3 {
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 1.6rem;
+}	
+.font-size-sp {
+	font-size: 1.4rem;
+}
+.flex {
+	flex-direction: column !important;
+}
+.header-inner {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.inner,
+.footer-inner {
+	width: 95%;
+	margin: 0 auto;
+}
+.inner:not(:first-of-type) {
+	padding-top: 4.0rem;
+	padding-bottom: 2.0rem;
+}
+.br-pc {
+	display: none;
+}
+.br-sp {
+	display: block;
+}
+
+/*header*/
+#header .flex {
+	flex-direction: row !important;
+}
+.hnav {
+	display: none;
+}
+.navbar_toggle {
+	display: block;
+}
+.navbar_toggle > a i {
+	line-height: 7.7rem;
+}
+.dnav {
+	display: block;
+	margin-top: -1.0rem;
+	padding-bottom: 2.0rem;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition:ease .5s;
+	transition: ease .5s;
+	z-index:1000;
+}
+.dnav.open {
+	-webkit-transform:translateX(0);
+	transform:translateX(0);
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.dnav-list {
+	text-align: right;
+}
+.dnav-item > a {
+	padding-right: 2.0rem;
+	line-height: 2.5rem;
+}
+.dnav-item > a:hover {
+	opacity: 0.6;
+}
+.dnav-item > a i {
+	padding-left: 0.6rem;
+}
+
+/* main */
+#main h1 {
+	padding-bottom: 3.6rem;
+	text-align: center;
+	color: #fff;
+}
+
+/*service*/
+.sv-card {
+	width: 100%;
+	margin-bottom: 1.6rem;
+}
+.sv-card .sv-img {
+	margin-bottom: 1.6rem;
+	padding: 0;
+}
+.sv-card .sv-txt {
+	display: none;
+}
+.sv-txt-sp {
+	display: block;
+}
+.sv-card .sv-txt-sp p {
+	text-align: center;
+	margin-bottom: 2.0rem;
+}
+.sv-card .sv-txt-sp p span {
+	background: linear-gradient(transparent 60%, yellow 40%);
+}
+
+/* works */
+.wk-card {
+	width: 100%;
+	margin-bottom: 1.6rem;
+}
+.wk-card .wk-lbl {
+	margin-bottom: 1.0rem;
+}
+.wk-card .wk-img > img {
+	max-width: 100%;
+}
+
+/* quality */
+.ql-card {
+	display: none;
+}
+.ql-card-sp {
+	display: block;
+	padding-top: 5.0rem;
+	margin-bottom: 3.0rem;
+ }
+.ql-card-sp .ql-content {
+	width: 100%;
+	position: relative;
+}
+.ql-card-sp .ql-content::before {
+	counter-increment: number 1;
+	content: counter(number);
+	display: inline-block;
+	width: 5.0rem;
+	height: 5.0rem;
+	font-size: 3.0rem;
+	line-height: 5.0rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #47B39D;
+	border-radius: 50%;
+	position: absolute;
+	top: -5.0rem;
+	left: 0;
+}
+.ql-card-sp .ql-ttl {
+	padding: 1.25rem 0;
+	text-align: left;
+}
+.ql-card-sp .ql-txt {
+	margin-bottom: 1.25rem;
+}
+
+/* profile */
+.pf-left,
+.pf-right {
+	width: 100%;
+}
+.pf-left {
+	margin-bottom: 1.0rem;
+}
+.pf-right {
+	margin: 0;
+}
+.pf-content {
+	display: none;
+}
+.pf-content-sp {
+	display: block;
+}
+.pf-content-sp p {
+	margin-bottom: 1.5rem;
+}
+.pf-table th,
+.pf-table td {
+	padding: 1.0rem 1.0rem;
+}
+.pf-table th {
+	width: 10.0rem;
+}
+
+/* contact */
+.ct-form {
+	width: 100%;
+}
+
+}
