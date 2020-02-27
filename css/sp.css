@@ -54,7 +54,6 @@ h4 {
 }
 .dnav {
 	display: block;
-	margin-top: -1.0rem;
 	padding-bottom: 2.0rem;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
@@ -83,10 +82,17 @@ h4 {
 }
 
 /* main */
-#main h1 {
-	padding-bottom: 3.6rem;
-	text-align: center;
-	color: #fff;
+#main .inner {
+	padding-top: 5.0rem;
+	padding-bottom: 5.0rem;
+}
+#main h1:nth-of-type(1) {
+	padding-top: 3.5rem;
+	padding-bottom: 2.0rem;
+}
+#main h1:nth-of-type(2) {
+	padding-top: 2.0rem;
+	padding-bottom: 3.5rem;
 }
 
 /*service*/
