@@ -118,7 +118,6 @@ a:link, a:visited, a:hover, a:active {
 	background: #2e2e2e;
 	box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
 	color: #FFF;
-	/* color: #fff; */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -208,9 +207,6 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /*works*/
-#works {
-	/* padding-top: 7.7rem; */
-}
 .wk-card {
 	width: 33.33333%;
 }
@@ -316,9 +312,6 @@ a:link, a:visited, a:hover, a:active {
 .pf-content p {
 	margin-bottom: 1.5rem;
 }
-/* .pf-content p:last-of-type {
-	margin-bottom: 2.5rem;
-} */
 .pf-content-sp {
 	display: none;
 }
@@ -409,21 +402,21 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /*/footer/*/
-	#footer {
-		background-color: #2e2e2e;
-		text-align: center;
-	}
-	#footer .inner {
-		padding-top: 1.0rem;
-		padding-bottom: 1.0rem;
-	}
-	.copyright {
-		padding: 0.5rem 0;
-		color: #fff;
-	}
-	#footer .sns li.hp > a {
-		color: #afbec7;
-	}
+#footer {
+	background-color: #2e2e2e;
+	text-align: center;
+}
+.footer-inner {
+	padding-top: 1.0rem;
+	padding-bottom: 1.0rem;
+}
+.copyright {
+	padding: 0.5rem 0;
+	color: #fff;
+}
+#footer .sns li.hp > a {
+	color: #afbec7;
+}
 
 /*/pageTop/*/
 #pageTop {
@@ -440,5 +433,4 @@ a:link, a:visited, a:hover, a:active {
 .fa-chevron-up {
 	font-size: 3.0rem;
 	color: #333;
-	/* line-height: 3.0rem; */
 }
